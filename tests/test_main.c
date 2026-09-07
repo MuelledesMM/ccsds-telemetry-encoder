@@ -15,7 +15,7 @@ int main() {
         .length = 15            // 16 bytes de payload (15 + 1, según el estándar)
     };
 
-    uint8_t buffer[CCSDS_HEADER_SIZE];
+    uint8_t buffer[CCSDS_HEADER_SIZE]; //6
     memset(buffer, 0, CCSDS_HEADER_SIZE); // Limpiar memoria por seguridad
 
     // Empaquetar a bytes 

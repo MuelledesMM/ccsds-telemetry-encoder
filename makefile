@@ -3,7 +3,8 @@ CFLAGS = -Wall -Wextra -std=c99 -I./src
 
 # Archivos fuente
 SRC = src/ccsds.c
-TEST_SRC = tests/test_main.c
+TEST_SRC = Test.c
+
 
 # Pruebas
 TARGET = test_ccsds
